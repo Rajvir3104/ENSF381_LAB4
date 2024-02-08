@@ -1,7 +1,7 @@
 # Project Overview
-- Exploring the process of creating responsive web designs
-- Implementing Flex to make creating responsive web designs more intuitive
-- 
+- Exploring the process of creating responsive web designs (Exercise B)
+- Implementing Flex to make creating responsive web designs more intuitive (Exercise C)
+- Learning how to format markdown files for GitHub (Exercise D)
 
 ## Team Members
 |   Name             |
