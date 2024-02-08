@@ -68,7 +68,7 @@ Description : Flex Layouts.
         body { margin: 0; padding: 0; }
         img { max-width: 100%; height: auto; }
         .container { 
-			/*I need some CSS codes.*/
+
 		 }
         .header, .footer { background-color: #f2f2f2; text-align: center; padding: 10px; width: 100%;}
 		.body { 
@@ -86,19 +86,34 @@ Description : Flex Layouts.
         
 
         @media screen and (min-width: 769px) {
-            .menu { width: 150px; }     
+			.body{
+				display: flex;
+				flex-direction: row;
+
+			}
 			.large { 
 				/*I need some CSS codes.*/
+				width: 100%;
 			}
 			.medium { 
 				/*I need some CSS codes.*/
+				width: 70%;
 			}
 			.small { 
 				/*I need some CSS codes.*/
+				width: 30%;
 			 }       
         }
 
         @media screen and (max-width: 768px) {
+			.menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+			justify-content: space;
+        	}
 			.body { 
 				/*I need some CSS codes.*/
 			}
